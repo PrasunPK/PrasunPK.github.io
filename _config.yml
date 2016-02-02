@@ -2,6 +2,7 @@
 source:       .
 destination:  ./_site
 plugins_dir:  ./_plugins
+post_dir:     ./_posts
 layouts_dir:  ./_layouts
 data_dir:     ./_data
 includes_dir: ./_includes
@@ -54,6 +55,7 @@ redcarpet:
   extensions: []
 
 kramdown:
+  input:          GFM
   auto_ids:       true
   footnote_nr:    1
   entity_output:  as_char
