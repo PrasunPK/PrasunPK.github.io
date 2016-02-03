@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+}
+
+.header-of-header .site-title{
+    padding : 20px;
+    display: flex;
+    height: 40px;
+    width: 200px;
+    font-size: 30px;
+    margin-left: 400px;
+    float: left;
+
+}
+
+.header-of-header .site-name{
+    float: left;
+    margin-left: 400px;
+    height: 30px;
+    margin-top: 60px;
+}
+
+.header-of-header a{
+    text-decoration: none;
+    color: grey;
+}
+
+.header-of-header a:hover{
+    color: black;
+}
+
+.post-link{
+    color: #47464e;
+    font-size: 28px;
+    text-decoration: none;
+}
+.post-link:hover{
+    transition: color 0.4s ease;
+    color: #818ad7;
+}
+
+.home{
+    padding: 30px;
+    background-color: lightgrey;
+    opacity: 1;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.post-date{
+    font-size: 14px;
+    margin-left: 50px;
+}
+
+.post-meta{
+    height: 80px;
+}
