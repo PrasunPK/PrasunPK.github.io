@@ -1,4 +1,5 @@
 .site-footer .wrapper{
+    margin-top: -100px;
     border-top: 2px grey solid;
     text-align: center;
     padding: 10px;

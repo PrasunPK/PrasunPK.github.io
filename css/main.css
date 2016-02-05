@@ -40,11 +40,8 @@ body{
 }
 
 .home{
-    padding: 30px;
+    padding: 30px ;
     background-color: lightgrey;
-    opacity: 1;
-    width: 1200px;
-    margin: 0 auto;
 }
 
 .post-date{
@@ -54,4 +51,5 @@ body{
 
 .post-meta{
     height: 80px;
+    border-bottom: 1px solid black;
 }
