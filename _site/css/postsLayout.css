@@ -1,0 +1,26 @@
+.page-content .left-block{
+    width: 70%;
+    float: left;
+}
+
+.page-content .right-block{
+    width: 29%;
+    border-left: 1px solid grey;
+    float: left;
+}
+.related-posts{
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #2f82d7;
+}
+
+a:hover{
+    text-decoration: underline;
+    transition: color 0.5s ease-in;
+    color: blue;
+}

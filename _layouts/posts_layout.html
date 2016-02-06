@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="left-block">
+          {{ content }}
+      </div>
+      <div class="right-block">
+          <h3 style="margin-left:20px;">Posts related to :<font color="blue"> {{ page.categories }}</font></h3> 
+          {% for post in site.categories.blog %}
+              <a href="{{ post.url | prepend: site.baseurl }}"><div class="related-posts">{{ post.title }} ... </div></a>
+          {% endfor %}
+      </div>
+    </div>
+
+  </body>
+
+</html>

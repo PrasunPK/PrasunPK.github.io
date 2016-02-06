@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://yourdomain.com/blog,design/2016/02/06/divisions-are-beautiful.html</loc>
+<lastmod>2016-02-06T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://yourdomain.com/blog/2016/02/04/Testing-blog.html</loc>
+<lastmod>2016-02-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://yourdomain.com/blog,new/2016/02/03/Fun-huh.html</loc>
+<lastmod>2016-02-03T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://yourdomain.com/</loc>
+</url>
+</urlset>

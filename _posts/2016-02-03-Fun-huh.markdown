@@ -1,1 +1,14 @@
-It's really fun to have Own Blog !!
+---
+layout: posts_layout
+title : Fun in writing blogs
+categories : blog,new
+tags: fun,first
+---
+
+<html>
+{% include head.html %}
+<body>
+
+    <h1>It's really fun to have Own Blog !! </h1>
+</body>
+</html>

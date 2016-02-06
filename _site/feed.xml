@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="http://jekyllrb.com" version="3.0.2">Jekyll</generator>
+<link href="http://yourdomain.com/feed.xml" rel="self" type="application/atom+xml" />
+<link href="http://yourdomain.com/" rel="alternate" type="text/html" />
+<updated>2016-02-06T10:26:46+05:30</updated>
+<id>http://yourdomain.com/</id>
+<title>Prasun Kumar Palchowdhury</title>
+<subtitle>Fun to have done something new.
+</subtitle>
+<entry>
+<title>Divisions are beautiful</title>
+<link href="http://yourdomain.com/blog,design/2016/02/06/divisions-are-beautiful.html" rel="alternate" type="text/html" title="Divisions are beautiful" />
+<published>2016-02-06T00:00:00+05:30</published>
+<updated>2016-02-06T00:00:00+05:30</updated>
+<id>http://yourdomain.com/blog,design/2016/02/06/divisions-are-beautiful</id>
+<content type="html" xml:base="http://yourdomain.com/blog,design/2016/02/06/divisions-are-beautiful.html">&lt;html&gt;
+{% include head.html %}
+&lt;body&gt;
+
+    &lt;h1&gt;Desigining is always beautiful&lt;/h1&gt;
+    &lt;pre&gt;
+        I like to design.
+        I don&#39;t know why this attracts me again again.
+        Logic gets fulfilled only when the design gets working properly
+    &lt;/pre&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+<category term="fun" />
+<summary>        Divisions are beautiful                      </summary>
+</entry>
+<entry>
+<title>Testing Blog</title>
+<link href="http://yourdomain.com/blog/2016/02/04/Testing-blog.html" rel="alternate" type="text/html" title="Testing Blog" />
+<published>2016-02-04T00:00:00+05:30</published>
+<updated>2016-02-04T00:00:00+05:30</updated>
+<id>http://yourdomain.com/blog/2016/02/04/Testing-blog</id>
+<content type="html" xml:base="http://yourdomain.com/blog/2016/02/04/Testing-blog.html">&lt;html&gt;
+{% include head.html %}
+&lt;body&gt;
+    &lt;h1&gt;Hi ... All I am Back&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+<summary>        Testing Blog                          Hi ... All I am Back</summary>
+</entry>
+<entry>
+<title>Fun in writing blogs</title>
+<link href="http://yourdomain.com/blog,new/2016/02/03/Fun-huh.html" rel="alternate" type="text/html" title="Fun in writing blogs" />
+<published>2016-02-03T00:00:00+05:30</published>
+<updated>2016-02-03T00:00:00+05:30</updated>
+<id>http://yourdomain.com/blog,new/2016/02/03/Fun-huh</id>
+<content type="html" xml:base="http://yourdomain.com/blog,new/2016/02/03/Fun-huh.html">&lt;html&gt;
+{% include head.html %}
+&lt;body&gt;
+
+    &lt;h1&gt;It&#39;s really fun to have Own Blog !! &lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+<category term="fun,first" />
+<summary>        Fun in writing blogs                      </summary>
+</entry>
+</feed>

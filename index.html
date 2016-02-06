@@ -8,14 +8,8 @@ layout: default
         <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title }}
         </a></h1>
-
         <span class="post-date">{{ post.date | date: "%d %B %Y" }}</span>
     </div>
-        {% highlight javascript %}
-        var fun = function(a ,b){
-            console.log('foo');
-        };
-        fun();
-        {% endhighlight %}
+
     {% endfor %}
 </div>
