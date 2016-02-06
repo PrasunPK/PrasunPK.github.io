@@ -1,7 +1,9 @@
 ---
 layout: posts_layout
 title : Fun in writing blogs
-categories : blog,new
+categories :
+    - blog
+    - fun
 tags: fun,first
 ---
 

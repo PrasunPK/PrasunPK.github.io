@@ -1,7 +1,9 @@
 ---
 layout: posts_layout
 title : Divisions are beautiful
-categories : blog,design
+categories :
+    - blog
+    - new
 tags: fun
 ---
 
