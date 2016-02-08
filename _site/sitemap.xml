@@ -15,4 +15,16 @@
 <url>
 <loc>http://yourdomain.com/</loc>
 </url>
+<url>
+<loc>http://yourdomain.com/tag/fun/</loc>
+</url>
+<url>
+<loc>http://yourdomain.com/tag/first/</loc>
+</url>
+<url>
+<loc>http://yourdomain.com/tag/second/</loc>
+</url>
+<url>
+<loc>http://yourdomain.com/tag/Design/</loc>
+</url>
 </urlset>

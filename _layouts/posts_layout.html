@@ -10,9 +10,10 @@
     <div class="page-content">
       <div class="left-block">
           {{ content }}
+          <!-- {{ page.tags | array_to_sentence_string }} -->
       </div>
       <div class="right-block">
-          <h3 style="margin-left:20px;">Posts related to :<font color="blue"> blog </font></h3>
+          <h3 style="margin-left:20px;">Posts related to :<font color="blue">{{ page.categories | array_to_sentence_string }}</font></h3>
           {% for post in site.categories.blog %}
               <a href="{{ post.url | prepend: site.baseurl }}"><div class="related-posts">{{ post.title }} ... </div></a>
           {% endfor %}

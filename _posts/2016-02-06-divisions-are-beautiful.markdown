@@ -1,10 +1,14 @@
 ---
 layout: posts_layout
 title : Divisions are beautiful
+description: This article is all about designs.
 categories :
     - blog
     - new
-tags: fun
+tags:
+    - fun
+    - second
+    - Design
 ---
 
 <html>

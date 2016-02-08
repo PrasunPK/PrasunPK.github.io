@@ -3,11 +3,10 @@
 <generator uri="http://jekyllrb.com" version="3.0.2">Jekyll</generator>
 <link href="http://yourdomain.com/feed.xml" rel="self" type="application/atom+xml" />
 <link href="http://yourdomain.com/" rel="alternate" type="text/html" />
-<updated>2016-02-06T10:39:12+05:30</updated>
+<updated>2016-02-07T19:40:23+05:30</updated>
 <id>http://yourdomain.com/</id>
 <title>Prasun Kumar Palchowdhury</title>
-<subtitle>Fun to have done something new.
-</subtitle>
+<subtitle>Alive Is Awesome</subtitle>
 <entry>
 <title>Divisions are beautiful</title>
 <link href="http://yourdomain.com/blog/new/2016/02/06/divisions-are-beautiful.html" rel="alternate" type="text/html" title="Divisions are beautiful" />
@@ -28,6 +27,8 @@
 &lt;/html&gt;
 </content>
 <category term="fun" />
+<category term="second" />
+<category term="Design" />
 <summary>        Divisions are beautiful                      </summary>
 </entry>
 <entry>
@@ -59,7 +60,8 @@
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
-<category term="fun,first" />
+<category term="fun" />
+<category term="first" />
 <summary>        Fun in writing blogs                      </summary>
 </entry>
 </feed>

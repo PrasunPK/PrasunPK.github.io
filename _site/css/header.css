@@ -4,14 +4,15 @@
     border-bottom: 2px grey solid;
     position:fixed;
     top:0px;
-    background-color: white;
     z-index: 999;
+    background-color: steelblue;
+
 }
 
 .smaller {
     height: 75px;
     transition: all 0.3s ease;
-    background-color: #e7eff1;
+    background-color: #156394;
 }
 
 .smaller .site-title{
@@ -26,6 +27,14 @@
     margin-top: 40px;
 }
 
-.trans .site-name, .trans .site-title{
-    transition: all 0.3s ease;
+.bigger{
+    transition: background-color 0.3s ease;
+    background-color: steelblue;
+    transition: height 0.2s ease;
+    height: 100px;
+}
+
+.bigger .site-title{
+    transition: font-size 0.3s ease;
+    font-size: 30px;
 }

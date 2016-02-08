@@ -4,7 +4,9 @@ title : Fun in writing blogs
 categories :
     - blog
     - fun
-tags: fun,first
+tags:
+    - fun
+    - first
 ---
 
 <html>

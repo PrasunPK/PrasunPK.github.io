@@ -9,8 +9,7 @@
 title: PrasunPK
 name: Prasun Kumar Palchowdhury
 email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Fun to have done something new.
+description: Alive Is Awesome
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: iam_prasun

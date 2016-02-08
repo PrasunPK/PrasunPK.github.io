@@ -10,7 +10,7 @@ body{
     font-size: 30px;
     margin-left: 400px;
     float: left;
-
+    color : white;
 }
 
 .header-of-header .site-name{
@@ -18,15 +18,17 @@ body{
     margin-left: 400px;
     height: 30px;
     margin-top: 60px;
+    color : white;
 }
 
 .header-of-header a{
     text-decoration: none;
-    color: grey;
+    color: white;
 }
 
 .header-of-header a:hover{
     color: black;
+    text-decoration: none;
 }
 
 .post-link{
@@ -36,20 +38,18 @@ body{
 }
 .post-link:hover{
     transition: color 0.4s ease;
-    color: #818ad7;
+    color: steelblue;
 }
 
 .home{
     padding: 30px ;
-    background-color: lightgrey;
 }
 
 .post-date{
     font-size: 14px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .post-meta{
     height: 80px;
-    border-bottom: 1px solid black;
 }
