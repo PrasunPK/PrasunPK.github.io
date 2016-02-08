@@ -6,8 +6,15 @@
          {% endfor %}
     </div>
   <div class="wrapper">
-      <div >
-        <label>{{ site.description }}</label>
+      <div>
+          <a class="" href="http://twitter.com/{{site.twitter_username}}">
+              <span class="site-footer-twitter-icons-title">Twitter</span>
+          </a>
+          <a class="" href="http://facebook.com/{{site.facebook_username}}">
+              <span class="site-footer-facebook-icons-title">Facebook</span>
+          </a>
+        <div>{{ site.description }}</div>
+
       </div>
   </div>
 </div>

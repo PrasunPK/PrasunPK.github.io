@@ -7,7 +7,6 @@
 
 .post-categories{
     margin: -100px auto;
-    /*background-color: #828b89;*/
     background-color: steelblue;
     padding: 10px 0 10px 0;
     height: 100px;
@@ -27,4 +26,16 @@
     width: 100px;
     padding-left: 10px;
     margin: 2px;
+}
+
+.site-footer-twitter-icons-title:hover{
+    color: #198bbb;
+}
+
+.site-footer-facebook-icons-title{
+    color: #2153a8;
+}
+
+.site-footer-facebook-icons-title:hover{
+    color: #3d6ab8;
 }
