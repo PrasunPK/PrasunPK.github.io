@@ -23,9 +23,19 @@
 }
 
 .tag{
-    width: 100px;
-    padding-left: 10px;
-    margin: 2px;
+    display: inline-block;
+    padding: 5px;
+    background-color: #B7BAC2;
+    margin: 0 0 0 1px;
+    border-radius: 2px;
+    color: #17276f;
+}
+
+.tag:hover{
+    transition:background-color 0.3s ease;
+    background-color: #4f5865;
+    transition:color 0.3s ease;
+    color: white;
 }
 
 .site-footer-twitter-icons-title:hover{
@@ -43,6 +53,4 @@
 }
 .site-footer .wrapper{
     text-align: center;
-}
-.footer-col-1{
 }
