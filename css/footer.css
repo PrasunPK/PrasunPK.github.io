@@ -30,6 +30,7 @@
 
 .site-footer-twitter-icons-title:hover{
     color: #198bbb;
+    text-decoration: none;
 }
 
 .site-footer-facebook-icons-title{
@@ -38,4 +39,10 @@
 
 .site-footer-facebook-icons-title:hover{
     color: #3d6ab8;
+    text-decoration: none;
+}
+.site-footer .wrapper{
+    text-align: center;
+}
+.footer-col-1{
 }
