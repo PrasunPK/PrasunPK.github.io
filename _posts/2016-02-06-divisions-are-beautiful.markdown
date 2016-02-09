@@ -2,6 +2,7 @@
 layout: posts_layout
 title : Divisions are beautiful
 description: This article is all about designs.
+id: /2016/02/06/divisions-are-beautiful
 categories :
     - blog
     - new

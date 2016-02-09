@@ -3,7 +3,7 @@
 <generator uri="http://jekyllrb.com" version="3.0.2">Jekyll</generator>
 <link href="http://yourdomain.com/feed.xml" rel="self" type="application/atom+xml" />
 <link href="http://yourdomain.com/" rel="alternate" type="text/html" />
-<updated>2016-02-09T09:57:51+05:30</updated>
+<updated>2016-02-09T19:34:59+05:30</updated>
 <id>http://yourdomain.com/</id>
 <title>Prasun Kumar Palchowdhury</title>
 <subtitle>Alive Is Awesome</subtitle>
@@ -12,7 +12,7 @@
 <link href="http://yourdomain.com/blog/new/2016/02/06/divisions-are-beautiful.html" rel="alternate" type="text/html" title="Divisions are beautiful" />
 <published>2016-02-06T00:00:00+05:30</published>
 <updated>2016-02-06T00:00:00+05:30</updated>
-<id>http://yourdomain.com/blog/new/2016/02/06/divisions-are-beautiful</id>
+<id>http://yourdomain.com/2016/02/06/divisions-are-beautiful</id>
 <content type="html" xml:base="http://yourdomain.com/blog/new/2016/02/06/divisions-are-beautiful.html">&lt;html&gt;
 {% include head.html %}
 &lt;body&gt;

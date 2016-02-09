@@ -1,15 +1,16 @@
 <div class="comments">
     <h2>Comments</h2>
 
-    {% capture commentid %}comments{{ page.id | replace: '/','-'}}{% endcapture %}
+    <!-- {% capture commentid %}comments{{ page.id | replace: '/','-'}}{% endcapture %} -->
 
-    {% for comment in site.data[commentid] %}
-        <div class="comment">
+    <div class="comment">
+    {% for comment in site.data.comments %}
             <div class="comment-author">{{ comment.author }}</div>
             <div class="comment-contents">{{ comment.contents | markdownify }}</div>
-            <div class="comment-date">{{ comment.date | date: '%a %d %B %Y, %H:%M' }} AEST</div>
-        </div>
-    {% endfor %}
+            <div class="comment-date">{{ comment.date | date: '%a %d %B %Y, %H:%M' }}</div>
 
+            <!-- <li> {{ comment.author }} </li> -->
+    {% endfor %}
+    </div>
     <p>Add a comment! <a href="https://github.com/prasunpk/prasunpk.github.io/issues/new">Raise an issue</a> and I'll make it a comment!</p>
 </div>
