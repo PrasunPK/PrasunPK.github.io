@@ -1,15 +1,12 @@
 <div class="comments">
-    <h2>Comments</h2>
-
-    {% capture commentid %}comments{{ page.id | replace: '/','-'}}{% endcapture %}
-
-    <div class="comment">
-    {% for comment in site.data.comments %}
-            <div class="comment-author">{{ comment.author }}</div>
-            <div class="comment-contents">{{ comment.contents | markdownify }}</div>
-            <div class="comment-date">{{ comment.date | date: '%a %d %B %Y, %H:%M' }}</div>
-
-    {% endfor %}
-    </div>
-    <p>Add a comment! <a href="https://github.com/prasunpk/prasunpk.github.io/issues/new">Raise an issue</a> and I'll make it a comment!</p>
+    <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = 'PrasunPK';
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
