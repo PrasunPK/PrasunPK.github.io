@@ -8,8 +8,13 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">
+      <div class="main-content">
         {{ content }}
+      </div>
+      <div class="other-content">
+           {% for tag in site.tags %}
+              <div class="tag"> {{ tag[0] }} </div>
+           {% endfor %}
       </div>
     </div>
     {% include footer.html %}

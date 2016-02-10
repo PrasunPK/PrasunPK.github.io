@@ -1,41 +1,14 @@
+.site-footer{
+    height: 100px;
+    width: 100%;
+    float: left;
+    top: 0px;
+}
+
 .site-footer .wrapper{
-    margin-top: 100px;
     border-top: 2px grey solid;
     text-align: center;
-    padding: 10px;
-}
-
-.post-categories{
-    margin: -100px auto;
-    background-color: steelblue;
-    padding: 10px 0 10px 0;
-    height: 100px;
-    width: 1200px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    color: white;
-}
-
-.post-categories label{
-    margin-left:10px;
-    color: #1f1753;
-    text-decoration: underline;
-}
-
-.tag{
-    display: inline-block;
-    padding: 5px;
-    background-color: #B7BAC2;
-    margin: 0 0 0 1px;
-    border-radius: 2px;
-    color: #17276f;
-}
-
-.tag:hover{
-    transition:background-color 0.3s ease;
-    background-color: #4f5865;
-    transition:color 0.3s ease;
-    color: white;
+    padding :10px;
 }
 
 .site-footer-twitter-icons-title:hover{
@@ -50,7 +23,4 @@
 .site-footer-facebook-icons-title:hover{
     color: #3d6ab8;
     text-decoration: none;
-}
-.site-footer .wrapper{
-    text-align: center;
 }

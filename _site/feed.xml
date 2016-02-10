@@ -3,7 +3,7 @@
 <generator uri="http://jekyllrb.com" version="3.0.2">Jekyll</generator>
 <link href="http://yourdomain.com/feed.xml" rel="self" type="application/atom+xml" />
 <link href="http://yourdomain.com/" rel="alternate" type="text/html" />
-<updated>2016-02-09T20:55:15+05:30</updated>
+<updated>2016-02-10T21:15:53+05:30</updated>
 <id>http://yourdomain.com/</id>
 <title>Prasun Kumar Palchowdhury</title>
 <subtitle>Alive Is Awesome</subtitle>
@@ -30,38 +30,5 @@
 <category term="second" />
 <category term="Design" />
 <summary>        Divisions are beautiful                      </summary>
-</entry>
-<entry>
-<title>Testing Blog</title>
-<link href="http://yourdomain.com/blog/2016/02/04/Testing-blog.html" rel="alternate" type="text/html" title="Testing Blog" />
-<published>2016-02-04T00:00:00+05:30</published>
-<updated>2016-02-04T00:00:00+05:30</updated>
-<id>http://yourdomain.com/blog/2016/02/04/Testing-blog</id>
-<content type="html" xml:base="http://yourdomain.com/blog/2016/02/04/Testing-blog.html">&lt;html&gt;
-{% include head.html %}
-&lt;body&gt;
-    &lt;h1&gt;Hi ... All I am Back&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</content>
-<summary>        Testing Blog                          Hi ... All I am Back</summary>
-</entry>
-<entry>
-<title>Fun in writing blogs</title>
-<link href="http://yourdomain.com/blog/fun/2016/02/03/Fun-huh.html" rel="alternate" type="text/html" title="Fun in writing blogs" />
-<published>2016-02-03T00:00:00+05:30</published>
-<updated>2016-02-03T00:00:00+05:30</updated>
-<id>http://yourdomain.com/blog/fun/2016/02/03/Fun-huh</id>
-<content type="html" xml:base="http://yourdomain.com/blog/fun/2016/02/03/Fun-huh.html">&lt;html&gt;
-{% include head.html %}
-&lt;body&gt;
-
-    &lt;h1&gt;It&#39;s really fun to have Own Blog !! &lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</content>
-<category term="fun" />
-<category term="first" />
-<summary>        Fun in writing blogs                      </summary>
 </entry>
 </feed>

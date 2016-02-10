@@ -1,11 +1,12 @@
 .page-content .left-block{
-    width: 70%;
+    width: 63%;
     float: left;
+    border-right: 1px solid grey;
+    padding: 10px;
 }
 
 .page-content .right-block{
     width: 29%;
-    border-left: 1px solid grey;
     float: left;
 }
 .related-posts{
