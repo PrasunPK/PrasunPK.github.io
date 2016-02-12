@@ -16,18 +16,24 @@
     padding: 10px;
 }
 
-.tag{
+.category{
     display: inline-block;
     padding: 5px;
     background-color: #c7cee3;
-    margin: 0 0 0 1px;
+    margin: 5px 0 0 1px;
     border-radius: 2px;
     color: #17276f;
 }
 
-.tag:hover{
+.category:hover{
     transition:background-color 0.3s ease;
     background-color: #a9c4ec;
     transition:color 0.5s ease;
     color: #2f45b9;
+}
+
+.heading{
+    font-weight: bold;
+    padding: 10px 0px 5px 0;
+    border-bottom: 1px solid black;
 }
