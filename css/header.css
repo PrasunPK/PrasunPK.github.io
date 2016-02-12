@@ -1,5 +1,5 @@
 .site-header{
-    left: 0%;
+    left: 200px;
 }
 
 .header-of-header{
@@ -22,7 +22,7 @@
 .smaller .site-title{
     transition: all 0.3s ease;
     font-size: 24px;
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
 .smaller .site-name{

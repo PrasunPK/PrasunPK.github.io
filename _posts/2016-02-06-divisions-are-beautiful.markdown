@@ -2,16 +2,16 @@
 layout: posts_layout
 comments: true
 title : Divisions are beautiful
-description: This article is all about designs.
 id: 12
-
-categories :
+categories:
     - blog
     - new
 tags:
     - fun
-    - second
     - Design
+    - Experience
+    - Logic
+description: This article is all about designs.
 ---
 
 <html>

@@ -8,14 +8,14 @@ body{
     height: 40px;
     width: 200px;
     font-size: 30px;
-    margin-left: 400px;
+    margin-left: 300px;
     float: left;
     color : white;
 }
 
 .header-of-header .site-name{
     float: left;
-    margin-left: 400px;
+    margin-left: 500px;
     height: 30px;
     margin-top: 60px;
     color : white;
@@ -53,9 +53,13 @@ body{
 }
 
 .post-meta{
-    height: 80px;
+    padding-bottom: 20px;
 }
 
 .post-head{
     border-left: 5px solid black;
+}
+
+.post-description{
+    margin-left: 50px;
 }

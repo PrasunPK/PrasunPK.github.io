@@ -27,10 +27,20 @@
 
 .tag{
     display: inline-block;
+    border-radius: 3px;
+    padding: 2px 5px;
+    background-color: lightgrey;
+}
+
+.tag:hover{
+    transition: background-color 0.5s ease;
+    background-color: grey;
+    transition: color 0.2s ease;
+    color:#ffffff;
 }
 
 .footer-layer-1{
-    background-color: lightgrey;
+    color: #111b70;
     width: 70%;
     margin: 0 auto;
 }
