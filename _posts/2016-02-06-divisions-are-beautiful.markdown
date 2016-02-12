@@ -5,7 +5,6 @@ title : Divisions are beautiful
 id: 12
 categories:
     - blog
-    - new
 tags:
     - fun
     - Design

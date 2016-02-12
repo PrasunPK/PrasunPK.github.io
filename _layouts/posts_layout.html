@@ -12,11 +12,20 @@
           {{ content }}
           {% include comments.html %}
       </div>
-      <div class="right-block">
-          <h3 style="margin-left:20px;">Posts related to :<font color="blue">{{ page.categories | array_to_sentence_string }}</font></h3>
-          {% for post in site.categories.blog %}
-              <a href="{{ post.url | prepend: site.baseurl }}"><div class="related-posts">{{ post.title }} ... </div></a>
+      <div class="other-content">
+          <div class="heading">Categories</div>
+          {% for category in site.categories %}
+             <div class="category"> {{ category[0] }} </div>
           {% endfor %}
+
+          <div class="heading">Posts related to</div>
+          <div class="related-post">
+              {% for category in page.categories %}
+                  {% for post in site.categories[category] %}
+                        <a href="{{ post.url | prepend: site.baseurl }}"><div class="related-posts">{{ post.title }} ... </div></a>
+                  {% endfor %}
+              {% endfor %}
+          </div>
     </div>
 
   </body>
