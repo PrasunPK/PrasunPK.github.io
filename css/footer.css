@@ -24,3 +24,17 @@
     color: #3d6ab8;
     text-decoration: none;
 }
+
+.tag{
+    display: inline-block;
+}
+
+.footer-layer-1{
+    background-color: lightgrey;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer-layer-2{
+    margin-top: 20px;
+}

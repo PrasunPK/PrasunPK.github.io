@@ -1,5 +1,9 @@
+.site-header{
+    left: 0%;
+}
+
 .header-of-header{
-    width: 100%;
+    width: 99%;
     height: 100px;
     border-bottom: 2px grey solid;
     position:fixed;
