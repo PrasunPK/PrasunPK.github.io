@@ -1,27 +1,40 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: PrasunPK
-name: Prasun Kumar Palchowdhury
-email: your-email@domain.com
-description: Alive Is Awesome
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: iam_prasun
-facebook_username: prasun.kumarpalchowdhury
-github_username:  PrasunPK
-
-# Build settings
+# This is the default format.
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /:title
+# https://help.github.com/articles/migrating-your-pages-site-from-maruku
 markdown: kramdown
+
+# highlighter: pygments
+paginate: 20 # pagination based on number of posts
+paginate_path: "page/:num"
+
+# These paths are to the main pages Jekyll-Bootstrap ships with.
+# Some JB helpers refer to these paths; change them here if needed.
+#
+categories_path : categories.html
+tags_path : tags.html
+
+BASE_PATH : ""
+
+
+title : PrasunPK
+
+
+
+author:
+  name: Prasun Kumar Palchowdhury
+  role: Jekyll Theme
+  email: "--"
+  github: prasunpk
+  twitter: iam_prasun
+  facebook: prasun.kumarpalchowdhury
+  googleplus: +prasun
+  bio: "Simple, clean, responsive and stylist theme for jekyll. "
+  # uno-dbyll: https://raw.githubusercontent.com/talk2ankan/uno-dbyll/gh-pages/uno-dbyll.png
 gems:
 - jekyll-mentions
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
-
 - jekyll-feed
+- jekyll-paginate
